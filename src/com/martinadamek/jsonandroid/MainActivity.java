@@ -124,7 +124,7 @@ public class MainActivity extends Activity {
 		InputStream inputStream = getAssetStream(ASSET_TWITTER_TIMELINE);
 
 		List<Map> result = testJson.parsePublicTimeline(inputStream);
-		verify(result);
+		//verify(result);
 
 		long duration = 0;
 
