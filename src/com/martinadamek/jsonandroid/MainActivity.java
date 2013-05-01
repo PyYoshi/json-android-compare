@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
 			testImpl(new SmartJson(), results);
 			testImpl(new GsonJson(), results);
 			testImpl(new JacksonJson(), results);
+			testImpl(new JPParser(), results);
 
 			runOnUiThread(new Runnable() {
 				public void run() {
