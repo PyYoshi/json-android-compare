@@ -6,7 +6,7 @@ import net.vvakame.util.jsonpullparser.util.JsonHash;
 
 @JsonModel
 
-public class Place {
+public class JPPPlace {
     @JsonKey
     String id;
     @JsonKey

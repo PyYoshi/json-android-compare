@@ -5,7 +5,7 @@ import net.vvakame.util.jsonpullparser.annotation.JsonModel;
 import net.vvakame.util.jsonpullparser.util.JsonHash;
 
 @JsonModel
-public class Tweet {
+public class JPPTweet {
     @JsonKey
     String text;
 
@@ -16,7 +16,7 @@ public class Tweet {
     int inReplyToStatusId;
 
     @JsonKey
-    Place place;
+    JPPPlace place;
 
     @JsonKey("in_reply_to_user_id")
     int inReplyToUserId;
@@ -84,11 +84,11 @@ public class Tweet {
         this.inReplyToStatusId = inReplyToStatusId;
     }
 
-    public Place getPlace() {
+    public JPPPlace getPlace() {
         return place;
     }
 
-    public void setPlace(Place place) {
+    public void setPlace(JPPPlace place) {
         this.place = place;
     }
 

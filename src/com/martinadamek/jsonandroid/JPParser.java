@@ -17,10 +17,10 @@ public class JPParser implements TestJson{
     public List<Map> parsePublicTimeline(InputStream inputStream) {
 
         //List<Map> result = new ArrayList<Map>();
-        List<Tweet> result;
+        List<JPPTweet> result;
 
         try{
-            result = TweetGen.getList(inputStream);
+            result = JPPTweetGen.getList(inputStream);
         }catch(JsonFormatException e){
             e.printStackTrace();
         }catch (IOException e){

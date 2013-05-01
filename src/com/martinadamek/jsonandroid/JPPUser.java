@@ -5,7 +5,7 @@ import net.vvakame.util.jsonpullparser.annotation.JsonModel;
 import net.vvakame.util.jsonpullparser.util.JsonHash;
 
 @JsonModel
-public class User {
+public class JPPUser {
     @JsonKey("profile_sidebar_fill_color")
     String profileSidebarFillColor;
 
