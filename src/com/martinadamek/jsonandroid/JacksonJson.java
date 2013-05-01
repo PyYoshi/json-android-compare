@@ -16,7 +16,7 @@ public class JacksonJson implements TestJson {
     private static JsonFactory sJsonFactory = new JsonFactory();
 
     public String getName() {
-        return "Jackson";
+        return "Jackson 1.9.12";
     }
 
     public List<Map> parsePublicTimeline(InputStream inputStream) {

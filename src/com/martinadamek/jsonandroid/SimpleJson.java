@@ -15,7 +15,7 @@ import org.json.simple.parser.JSONParser;
 public class SimpleJson implements TestJson {
 
     public String getName() {
-        return "JSON.simple";
+        return "JSON.simple 1.1.1";
     }
 
     public List<Map> parsePublicTimeline(InputStream inputStream) {

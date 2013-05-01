@@ -15,7 +15,7 @@ import net.minidev.json.parser.JSONParser;
 public class SmartJson implements TestJson {
 
 	public String getName() {
-		return "JSON.smart";
+		return "JSON.smart 1.1.1";
 	}
 
 	public List<Map> parsePublicTimeline(InputStream inputStream) {

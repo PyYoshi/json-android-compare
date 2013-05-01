@@ -14,7 +14,7 @@ import com.google.gson.stream.JsonToken;
 public class GsonJson implements TestJson {
 
 	public String getName() {
-		return "Gson";
+		return "Gson 2.2.3";
 	}
 
 	public List<Map> parsePublicTimeline(InputStream inputStream) {
