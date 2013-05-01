@@ -6,6 +6,7 @@
       <root url="jar://$PROJECT_DIR$/libs/jackson-core-asl-1.9.12.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/json-simple-1.1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/jsonpullparser-core-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-mapper-asl-1.9.12.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

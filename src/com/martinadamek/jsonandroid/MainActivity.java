@@ -33,6 +33,7 @@ public class MainActivity extends Activity {
 			testImpl(new GsonJson(), results);
 			testImpl(new JacksonJson(), results);
 			testImpl(new JPParser(), results);
+			testImpl(new JacksonJsonOMapper(), results);
 
 			runOnUiThread(new Runnable() {
 				public void run() {
