@@ -11,7 +11,7 @@ import net.vvakame.util.jsonpullparser.JsonFormatException;
 public class JPParser implements TestJson{
 
     public String getName() {
-        return "JsonPullParser 1.6.1";
+        return "[OM]JsonPullParser 1.6.1";
     }
 
     public List<Map> parsePublicTimeline(InputStream inputStream) {
